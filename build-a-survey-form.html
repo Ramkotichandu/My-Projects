@@ -1,0 +1,114 @@
+
+<html>
+  <head>
+<style>
+    body{
+        background-color: rgb(178, 230, 230);
+        align:center;
+    }
+    #dropdown,#name,#email,#number{
+        background-color: azure;
+
+    }
+    #ta{
+        background-color: azure;
+    }     
+    
+    #two{
+        border-style: solid;
+        border-width: 5px 5px;
+       margin-left: 280px;
+       margin-right: 280px;
+       background-color: rgb(231, 209, 199);
+       
+    }
+    #submit{
+        background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 8px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+    }
+    #name{
+         margin-top: 0.3cm;
+         
+    }
+    #survey-form{
+        align-items: center;
+    }
+    #one{
+        align-content: center;
+    }
+
+  
+    
+</style>
+    </head>
+
+<body align="center" id="main">
+    <section id="one">
+<h1 id="title">freeCodecamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+</section>
+
+<section id="two">
+
+<form id="survey-form">
+    <label for id="name-label"><b>Name</b></label>
+    <input type="text" id="name" name="name-label" placeholder="Enter your name" required><br><br>
+    <label for id="email-label"><b>Email</b></label>
+ <input type="email" id="email" placeholder="Enter your Email" required><br><br>
+ <label for id="number-label"><b>Age (optional)</b></label>
+ <input type="number" id="number" placeholder="Age" min="10" max="99"><br><br>
+ <label><b>Which option best describes your current role?</b></label><br><br>
+ <select id="dropdown">
+    <option>Select current role</option>
+   <option>Student</option>
+   <option>Full Time Job</option>
+   <option>Full Time Learner</option>
+<option>Prefer not to say</option>
+<option>Others</option>
+   </select><br><br>
+   <label><b>Would you recommend freeCodeCamp to a friend?</b></label>
+<br><input type="radio" name="radio" value="choose">Definitely
+<br><input type="radio" name="radio" value="choose">Maybe
+<br><input type="radio" name="radio" value="choose">Not sure
+<br><br>
+<label><b>What is your favorite feature of freeCodeCamp?</b></label><br><br>
+<select id="dropdown">
+    <option>Select an option</option>
+   <option>Challenges</option>
+   <option>Projects</option>
+   <option>Community</option>
+<option>Open Source</option>
+   </select><br><br>
+<label><b>What would you like to see improved? (Check all that apply)</b></label>
+   <br><input type="checkbox" value="select">Front-end Projects
+   <br><input type="checkbox" value="select">Back-end Projects
+   <br><input type="checkbox" value="select">Data Visualization
+   <br><input type="checkbox" value="select">Challenges
+   <br><input type="checkbox" value="select">Open Source Community
+   <br><input type="checkbox" value="select">Gitter help rooms
+   <br><input type="checkbox" value="select">Videos
+   <br><input type="checkbox" value="select">City Meetups
+   <br><input type="checkbox" value="select">Wiki
+   <br><input type="checkbox" value="select">Forum
+   <br><input type="checkbox" value="select">Additional Courses
+
+<br><br>
+<label><b>Any comments or suggestions?</b></label><br><br>
+<textarea placeholder="Enter your comments here..." id="ta"></textarea>
+<br><br>
+<input type="submit" id="submit">
+
+  </form>
+</section>
+  </body>
+
+</html>
+
+
+
