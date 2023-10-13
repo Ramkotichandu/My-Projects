@@ -1,0 +1,177 @@
+<html>
+<head>
+<style>
+  body{
+    background-color: rgb(245, 236, 223);
+  }
+#submit{
+  margin-left: 5%;
+  background-color: yellow;
+  font-weight: 700;
+  cursor: pointer;
+
+.sub{
+  align-items: center;
+}
+  
+  }
+#form{
+  padding-left: 40%;
+}
+
+#ct1{
+  padding-bottom: 0.3%;
+  padding-top: 0.3%
+}
+  
+#ct2{
+  padding-left: 20%;
+}
+#nav-bar {
+  overflow: hidden;
+  margin-left: 60%;
+  list-style-type:none;
+  
+}
+
+#nav-bar {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#nav-bar a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+@media (max-width: 200px) {
+  /* CSS styles for small portrait devices */
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header img {
+  flex: 0 0 100px;
+}
+
+#header nav {
+  flex: 1;
+
+}
+
+#header nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #00f;
+}
+#nav-bar {
+  position:relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+#main-content {
+  padding-top: 50px;
+}
+
+#one,#two,#three{
+  border: 5px solid black;
+  margin-bottom: 5%;
+  margin-right: 80%;
+  align-content: center;
+  text-align: center;
+}
+#pricing{
+  box-sizing:border-box;
+}
+</style>
+</head>
+ 
+ <body>
+   <header id="header">
+     <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" id="header-img">
+   
+</header>
+<div id="ct1">
+<h3 align="center">Handcrafted, home-made masterpieces</h3>
+<form action="https://www.freecodecamp.com/email-submit" id="form">
+<input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+<input type="submit" value="GET STARTED" id="submit">
+</form>
+</div>
+<div id="ct2">
+<h3 id="Features">Premium Materials</h3>
+<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+<h3 id="Features">Fast Shipping</h3>
+<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+<h3 id="Features">Quality Assurance</h3>
+<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+</div>
+<video src="https://youtu.be/y8Yv4pnO7qc" id="video"></video>
+
+<section id="Pricing">
+  <div id="one">
+ <h4>TENOR TROMBONE</h4>
+<h4>$600</h4>
+<ol>
+
+  <li>Lorem ipsum.</li>
+  <li>Lorem ipsum.</li>
+  <li>Lorem ipsum dolor.</li>
+  <li>Lorem ipsum.</li>
+</ol>
+<input type="submit" value="SELECT" id="submit" class="sub">
+</div>
+
+<div id="two">
+  <h4>BASS TROMBONE</h4>
+<h4>$900</h4>
+<ol>  
+
+  <li>Lorem ipsum.</li>
+  <li>Lorem ipsum.</li>
+  <li>Lorem ipsum dolor.</li>
+  <li>Lorem ipsum.</li>
+  </ol>
+  <input type="submit" value="SELECT" id="submit" class="sub">
+</div>
+
+<div id="three">
+<h4>VALVE TROMBONE</h4>
+<h4>$1200</h4>
+<ol>
+
+  <li>Plays similar to a Trumpet.</li>
+  <li>Great for Jazz Bands</li>
+  <li>Lorem ipsum dolor.</li>
+  <li>Lorem ipsum.</li>
+</ol>
+<input type="submit" value="SELECT" id="submit" class="sub">
+</div>
+</section>
+   </body>
+  </html>
+
+
+
+
+
+
+
